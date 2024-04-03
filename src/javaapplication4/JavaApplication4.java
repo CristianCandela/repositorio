@@ -15,6 +15,14 @@ public class JavaApplication4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
+    System.out.print("HolaMundo_");
+    System.out.println("Hola\nMundo");
+    System.out.println("\tHola mundo");
     
+    
+    String nombre="Pato";
+    double numero=3.152643;
+    String nombre1="Carlos";
+    double numero1=345.152643;
+    System.out.printf("minombre es %s mi" + "mi numero es %f total\n",nombre, numero);}
 }

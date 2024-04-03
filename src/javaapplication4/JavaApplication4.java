@@ -24,5 +24,10 @@ public class JavaApplication4 {
     double numero=3.152643;
     String nombre1="Carlos";
     double numero1=345.152643;
-    System.out.printf("minombre es %s mi" + "mi numero es %f total\n",nombre, numero);}
+    System.out.printf("minombre es %15s mi" + "mi numero es %f total\n",nombre, numero);
+    System.out.printf("minombre es %-15s mi" + "mi numero es %f total\n",nombre, numero);
+    System.out.printf("minombre es %15s mi" + "mi numero es %f total\n",nombre, numero);
+    System.out.printf("minombre es %15s mi" + "mi numero es %21.1f total\n",nombre, numero);
+    System.out.printf("minombre es %-15s mi" + "mi numero es %-20.2f total\n",nombre, numero);
+    System.out.printf("minombre es %15s mi" + "mi numero es %f total\n",nombre, numero);}
 }

@@ -16,18 +16,18 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        long dias;
-        long luz=299792458;
+        int dias;
+        final double V_LUZ = 299792458;
+        double distancia=0;
         Scanner lector = new Scanner(System.in);
         
         System.out.println("Ingrese el número de días");
         dias=lector.nextInt();
         
-        dias*=luz;
+        distancia= dias*24*Math.pow(60,2)*V_LUZ; 
         
-        System.out.printf("Distancia que reccore la luz:\n" +dias);
-        System.out.println("");
-        
+        System.out.println("Número de días es " +dias+" y la distancia"+distancia);
+        System.out.printf("El número de dias %d  y" + "la distancia %5.2f", dias, distancia);
     }
     
 }
